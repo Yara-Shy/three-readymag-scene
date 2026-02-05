@@ -1,3 +1,4 @@
+
 let canvas, ctx, field, w, h, fieldSize, columns, rows, noiseZ, particles, hue;
 (noiseZ = 0);
 particleCount = 2000;
@@ -10,7 +11,8 @@ trailLength = 0.15;
 hueBase = 10;
 hueRange = 5;
 maxSpeed = 2.5;
-enableGUI = true;
+const params = new URLSearchParams(window.location.search);
+enableGUI = params.get("gui") === "1";
 
 var ui = new function() {
   this.particleCount = particleCount;
