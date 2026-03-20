@@ -1,8 +1,126 @@
 <!DOCTYPE html>
-<html lang="uk">
-  <head>
-  </head>
-  <body>
-  <canvas id="canvas"></canvas>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Yaroslava Shylyk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap"/>
+<link rel="stylesheet" href="STYLES.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-logo">HI, I'M <em>YARA</em></div>
+  <div class="loader-track"><div class="loader-bar" id="lbar"></div></div>
+  <div class="loader-pct" id="lpct">0%</div>
+</div>
+
+<div id="cur"></div><div id="cur-ring"></div>
+<div class="grain"></div><div class="vignette"></div>
+<canvas id="bg-canvas"></canvas>
+<div id="scroll-cue"><div class="cue-text">scroll</div><div class="cue-arrow"></div></div>
+
+<nav id="main-nav">
+  <a href="#s-home" class="logo">HI, I'M <em>YARA</em></a>
+  <ul class="nav-links">
+    <li><a href="#s-home">Home</a></li>
+    <li><a href="#s-work">Work</a></li>
+    <li><a href="#s-about">About</a></li>
+    <li><a href="#s-contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="s-home-wrapper">
+<section id="s-home">
+  <div class="eyebrow hero-reveal" style="transition-delay:.05s">Virtual Production · Web Design · Film</div>
+  <h1 class="hero-name">
+    <span class="line hero-reveal" style="transition-delay:.12s">Yaroslava</span>
+    <span class="line hero-reveal" style="transition-delay:.2s;font-style:italic;color:var(--c2);padding-left:2vw">Shylyk</span>
+  </h1>
+  <p class="hero-sub hero-reveal" style="transition-delay:.3s">Designer &amp; visual technologist crafting immersive experiences at the intersection of film, Unreal Engine &amp; web.</p>
+  <div class="cta-row hero-reveal" style="transition-delay:.42s">
+    <a href="#s-work" class="btn btn-solid">View Work</a>
+    <a href="#s-contact" class="btn btn-ghost">Let's Talk</a>
+  </div>
+</section>
+</div>
+
+<div id="s-work">
+<div class="spiral-section" id="spiral">
+  <div class="spiral-header"></div>
+  <div class="sticky"><div class="stage" aria-hidden="true"><div class="spiral" id="spiralTrack">
+
+    <div class="card-photo" id="cp-0"><img loading="lazy" src="https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp&cX=538.7370001716149&cY=0&cW=4642.52599965677&cH=2977" alt=""/></div>
+    <div class="card-photo" id="cp-1"><img loading="lazy" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75" alt=""/></div>
+    <div class="card-photo" id="cp-2"><img loading="lazy" src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=75" alt=""/></div>
+    <div class="card-photo" id="cp-3"><img loading="lazy" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=75" alt=""/></div>
+    <div class="card-photo" id="cp-4"><img loading="lazy" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=75" alt=""/></div>
+    <div class="card-photo" id="cp-5"><img loading="lazy" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=75" alt=""/></div>
+
+    <a class="card" href="#" data-idx="0"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc0" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc0-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc0-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc0-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc0-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">Projection Mapping</span><span class="meta-tag">3D Environments</span><span class="meta-tag">Camera Tracking</span></div><div class="subtitle">Immersive Art Space · Zurich 2025</div><h3>Cyber Passage</h3><div class="desc">Real-time Unreal Engine setup with virtual camera tracking and projection mapping.</div><span class="cta-link">View Project →</span></div></a>
+
+    <a class="card" href="#" data-idx="1"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc1" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc1-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc1-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc1-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc1-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">WebGL</span><span class="meta-tag">GLSL Shaders</span><span class="meta-tag">Canvas API</span></div><div class="subtitle">Web Experiment · 2024</div><h3>Liquid Glass FX</h3><div class="desc">Custom SVG displacement filters creating an organic liquid glass text effect.</div><span class="cta-link">View Project →</span></div></a>
+
+    <a class="card" href="#" data-idx="2"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc2" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc2-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc2-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc2-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc2-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">Unreal Engine</span><span class="meta-tag">LED Wall</span><span class="meta-tag">VFX</span></div><div class="subtitle">Virtual Production · 2024</div><h3>Desert Landscape</h3><div class="desc">Photo-realistic desert for LED wall with dynamic lighting and dust compositing.</div><span class="cta-link">View Project →</span></div></a>
+
+    <a class="card" href="#" data-idx="3"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc3" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc3-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc3-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc3-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc3-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">Unreal Engine</span><span class="meta-tag">Color Grading</span><span class="meta-tag">Lighting</span></div><div class="subtitle">Virtual Production · 2024</div><h3>Hospital Corridor</h3><div class="desc">Clinical LED wall environment with DOF and colour grading pipeline.</div><span class="cta-link">View Project →</span></div></a>
+
+    <a class="card" href="#" data-idx="4"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc4" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc4-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc4-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc4-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc4-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">Web Design</span><span class="meta-tag">Motion</span><span class="meta-tag">Readymag</span></div><div class="subtitle">Web Design · 2024</div><h3>Portfolio Site</h3><div class="desc">Interactive portfolio with glassmorphism and WebGL backgrounds.</div><span class="cta-link">View Project →</span></div></a>
+
+    <a class="card" href="#" data-idx="5"><svg class="card-filter" xmlns="http://www.w3.org/2000/svg"><defs><filter id="fc5" color-interpolation-filters="sRGB"><feImage x="0" y="0" width="100%" height="100%" result="map" id="fc5-img"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc5-r" xChannelSelector="R" yChannelSelector="G" result="dr"/><feColorMatrix in="dr" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc5-g" xChannelSelector="R" yChannelSelector="G" result="dg"/><feColorMatrix in="dg" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="gc"/><feDisplacementMap in="SourceGraphic" in2="map" id="fc5-b" xChannelSelector="R" yChannelSelector="G" result="db"/><feColorMatrix in="db" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bc"/><feBlend in="rc" in2="gc" mode="screen" result="rg"/><feBlend in="rg" in2="bc" mode="screen" result="out"/><feGaussianBlur in="out" stdDeviation="0.3"/></filter></defs></svg><div class="meta"><div class="meta-tags"><span class="meta-tag">Coming Soon</span></div><div class="subtitle">Project · 2025</div><h3>Untitled Project</h3><div class="desc">Placeholder for upcoming work.</div><span class="cta-link">View Project →</span></div></a>
+
+  </div></div><div class="spiral-hint">scroll to explore ↓</div></div>
+</div>
+</div>
+
+<section class="scroll-page" id="s-about">
+  <div class="about-grid">
+    <div>
+      <div class="about-big">Bridging<br>film &amp;<br><em>web.</em></div>
+      <div class="tags"><span class="tag">Virtual Production</span><span class="tag">Unreal Engine</span><span class="tag">WebGL / GLSL</span><span class="tag">LED Wall</span><span class="tag">Color Grading</span><span class="tag">Three.js</span><span class="tag">Readymag</span><span class="tag">Motion Design</span><span class="tag">Film Pipeline</span></div>
+    </div>
+    <div class="about-body">
+      <p>I'm Yaroslava — a designer and visual technologist based in <strong>Switzerland</strong>, working at the crossroads of virtual production, real-time 3D, and the web.</p>
+      <p>Currently completing a <strong>Virtual Production minor</strong> — building LED wall environments, lighting pipelines, and real-time Unreal Engine workflows for film.</p>
+      <p>On the web side I write <strong>custom GLSL shaders</strong>, WebGL scenes, and interactive interfaces that feel closer to cinema than to websites.</p>
+    </div>
+  </div>
+</section>
+
+<section class="scroll-page" id="s-contact">
+  <div class="contact-big">Let's build<br><span class="ca">something</span><span class="cd">extraordinary.</span></div>
+  <div class="contact-links">
+    <a href="mailto:hello@yaroslava-shylyk.xyz" class="cl"><span class="cl-arr">→</span>hello@yaroslava-shylyk.xyz</a>
+    <a href="https://yaroslava-shylyk.xyz" class="cl" target="_blank"><span class="cl-arr">→</span>yaroslava-shylyk.xyz</a>
+    <a href="https://linkedin.com/in/yourprofile" class="cl" target="_blank"><span class="cl-arr">→</span>LinkedIn</a>
+    <a href="https://github.com/yourprofile" class="cl" target="_blank"><span class="cl-arr">→</span>GitHub</a>
+  </div>
+</section>
+
+<div class="theme-dots" id="theme-dots"><div class="tdot" data-t="nebula"></div><div class="tdot" data-t="sunset"></div><div class="tdot" data-t="forest"></div><div class="tdot" data-t="aurora"></div></div>
+<button class="explode-btn" id="explode-btn">✦</button>
+<div class="pg-counter" id="pg-counter"><em id="pg-cur">01</em> / 04</div>
+
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.162.0/examples/jsm/"}}
+</script>
+<script type="module" src="JS.js"></script>
+<div id="zoom-overlay" class="zoom-overlay">
+    <button class="zoom-close" id="zoom-close">✕</button>
+    
+    <div class="zoom-left">
+        <div class="zoom-grid" id="zoom-grid"></div>
+      </div>
+    <div class="zoom-right">
+      <div class="zoom-tags" id="zoom-tags"></div>
+      <h2 class="zoom-title" id="zoom-title"></h2>
+      <div class="zoom-subtitle" id="zoom-subtitle"></div>
+      <p class="zoom-desc" id="zoom-desc"></p>
+      <div class="zoom-meta" id="zoom-meta"></div>
+    </div>
+  </div>
+</body>
 </html>
