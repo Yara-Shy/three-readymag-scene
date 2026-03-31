@@ -106,13 +106,13 @@ const loaderTick = setInterval(() => {
 /* ─────────────────────────────────────────────
    CONFIG
    ───────────────────────────────────────────── */
-const IS_LOW_END = navigator.hardwareConcurrency <= 4;
+const IS_LOW_END = navigator.hardwareConcurrency <= 2;
 const CFG = {
   sphere : { count: IS_LOW_END ? 10_000 : 18_000, radius: 5 },
   rings  : { count: IS_LOW_END ? 4 : 5, pointsPerRing: IS_LOW_END ? 1_200 : 2_000, radius: 7.5, thickness: 0.6 },
   stars  : { count: IS_LOW_END ? 3_000 : 6_000, spread: 50_000 },
   bloom  : { strength: IS_LOW_END ? 0.8 : 1.2, threshold: 0, radius: 0.5 },
-  dpr    : Math.min(devicePixelRatio, IS_LOW_END ? 1 : 1.5),
+  dpr    : Math.min(devicePixelRatio, 1),
   explode: { duration: 2_000 },
 };
 const CAM = { FAR_Z: 28, NEAR_Z: 15, SPIRAL_Z: 3.5, Y: 5, HERO_X: -10 };
@@ -425,7 +425,7 @@ const spiral = (() => {
   const S = {
     R: isMob ? 280 : 640, pitch: isMob ? 250 : 320, zOffset: isMob ? -160 : -260, faceStrength: isMob ? 32 : 48, tiltX: 0,
     backBlurMax: 12, backOpacityMin: 0.22, frontOpacityMin: 0.98,
-    backThreshold: 0, cameraLerp: 0.1, focusSharpness: 12.0, scrollLerp: 0.04,
+    backThreshold: 0, cameraLerp: 0.1, focusSharpness: 12.0, scrollLerp: 0.08,
   };
   window.addEventListener('resize', () => {
     const m = window.innerWidth <= 768;
@@ -514,7 +514,7 @@ const scale = baseScale * smoothHover[i];
         cards[i].style.filter       = filt;
         cards[i].style.opacity      = opacity.toFixed(3);
         cards[i].style.zIndex       = zIdx;
-        cards[i].style.pointerEvents = facing > .6 ? 'auto' : 'none';
+        cards[i].style.pointerEvents = facing > .4 ? 'auto' : 'none';
 
         if (photos[i]) {
           photos[i].style.transform = tf;
@@ -756,13 +756,12 @@ document.addEventListener('keydown', e => {
   if (!zoomOverlay.classList.contains('open')) return;
   if (e.key === 'Escape') closeZoom();
 });
-document.addEventListener('click', e => {
+document.addEventListener('touchend', e => {
   const card = e.target.closest('.card');
   if (!card) return;
   e.preventDefault();
-  e.stopPropagation();
   openZoom(parseInt(card.dataset.idx));
-});
+}, { passive: false });
 
 document.querySelectorAll('.tdot').forEach(dot => dot.addEventListener('click', () => applyTheme(dot.dataset.t)));
 
