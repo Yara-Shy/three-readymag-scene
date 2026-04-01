@@ -298,10 +298,14 @@ window.addEventListener('resize', () => {
   composer.setSize(innerWidth, innerHeight);
 }, { passive: true });
 
-window.addEventListener('mousemove', e => {
-  mouse3D.x =  (e.clientX / innerWidth)  * 2 - 1;
-  mouse3D.y = -((e.clientY / innerHeight) * 2 - 1);
-}, { passive: true });
+const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || window.matchMedia('(pointer: coarse)').matches;
+
+if (!isMobile) {
+  window.addEventListener('mousemove', e => {
+    mouse3D.x =  (e.clientX / innerWidth)  * 2 - 1;
+    mouse3D.y = -((e.clientY / innerHeight) * 2 - 1);
+  }, { passive: true });
+}
 
 
 /* ─────────────────────────────────────────────
@@ -537,12 +541,14 @@ const scale = baseScale * smoothHover[i];
   lastTime = t;
 
   /* ── Cursor  ── */
-  ring.x = lerpDt(ring.x, mouse.x, 0.14, dt);
-  ring.y = lerpDt(ring.y, mouse.y, 0.14, dt);
-  curEl.style.left   = mouse.x + 'px';
-  curEl.style.top    = mouse.y + 'px';
-  ringEl.style.left  = ring.x  + 'px';
-  ringEl.style.top   = ring.y  + 'px';
+  if (!isMobile) {
+    ring.x = lerpDt(ring.x, mouse.x, 0.14, dt);
+    ring.y = lerpDt(ring.y, mouse.y, 0.14, dt);
+    curEl.style.left   = mouse.x + 'px';
+    curEl.style.top    = mouse.y + 'px';
+    ringEl.style.left  = ring.x  + 'px';
+    ringEl.style.top   = ring.y  + 'px';
+  }
 
   /* ── Camera Z  ── */
   // FPS-нормалізований lerp — камера однаково плавна на 60 і 120fps
@@ -717,7 +723,7 @@ let zoomCurrentProject = null;
 let zoomCurrentImg = 0;
 const zoomOverlay = document.getElementById('zoom-overlay');
 
-const isMobile = () => window.innerWidth <= 768;
+// isMobile вже оголошена вище
 
 function openZoom(projIdx, sourceArr) {
   const arr = sourceArr || PROJECTS;
