@@ -839,8 +839,8 @@ const MORE_PROJECTS = [
   meta: '<strong>Role:</strong> Visual Designer & Tracking Setup <br><strong>Tools:</strong> Unreal Engine, Blender, Max/MSP, MadMapper<br><strong>Year:</strong> 2025',
   images: [
       { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774356903/Cyber_Passage-05_gi9ujg.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774356768/Cyber_Passage-10_oldama.jpg' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774356779/Cyber_Passage-02_zqjat6.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363003/Cyber_Passage-10_cfawu8.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363010/Cyber_Passage-02_x4oqps.png' },
       { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
     ],
 },
