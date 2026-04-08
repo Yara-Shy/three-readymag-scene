@@ -818,7 +818,32 @@ const sections  = ['s-home','s-work','s-about','s-contact'].map(id => document.g
    ───────────────────────────────────────────── */
 
 const MORE_PROJECTS = [
- 
+  {
+  title: 'Forever Trashed',
+  subtitle: 'Prague · 2023',
+  tags: ['3D Environments', '3D Animation', '3D Modeling','Unity'],
+  desc: 'Designed and built a game environment, including 3D assets, level structure, and character/object animations. Focused on spatial composition, gameplay flow, and visual coherence across the scene. Presented at FIK (Ústí nad Labem, 2023) and Lektvar (Olomouc, 2023).',
+  meta: '<strong>Role:</strong> Environment & 3D Artist <br><strong>Tools:</strong> Blender, Unity <br><strong>Year:</strong> 2023',
+  images: [
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774537350/forever_trashed4_1_vpay3y.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774535643/forever_trashed5_zg6oit.jpg' },
+    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774535804/forever_ode02z.mp4' },
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569758/copy_of_forever_trashed3_dzljnn_daf60c.png' },
+  ],
+},
+  {
+  title: 'Cyber Passage',
+  subtitle: 'Installation · Zurich, 2025',
+  tags: ['Real-time Environments', 'Camera Tracking', 'Projection Mapping', 'Unreal Engine'],
+  desc: 'Built and operated a real-time Unreal Engine setup combining virtual camera tracking and projection mapping. Aligned virtual perspective with the viewer’s position, adjusting scene and projection parameters to maintain spatial coherence as the viewpoint shifted. Presented at Immersive Art Space (Zurich, 2025).',
+  meta: '<strong>Role:</strong> Visual Designer & Tracking Setup <br><strong>Tools:</strong> Unreal Engine, Blender, Max/MSP, MadMapper<br><strong>Year:</strong> 2025',
+  images: [
+      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774356903/Cyber_Passage-05_gi9ujg.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363003/Cyber_Passage-10_cfawu8.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363010/Cyber_Passage-02_x4oqps.png' },
+      { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
+    ],
+},
   {
   title: 'Chornozem',
   subtitle: 'Startup Project · Zurich/Kyiv, 2025',
@@ -832,19 +857,6 @@ const MORE_PROJECTS = [
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569035/_0006100_rtlfx0.png' },
     
   ],
-},
-   {
-  title: 'Cyber Passage',
-  subtitle: 'Installation · Zurich, 2025',
-  tags: ['Real-time Environments', 'Camera Tracking', 'Projection Mapping', 'Unreal Engine'],
-  desc: 'Built and operated a real-time Unreal Engine setup combining virtual camera tracking and projection mapping. Aligned virtual perspective with the viewer’s position, adjusting scene and projection parameters to maintain spatial coherence as the viewpoint shifted. Presented at Immersive Art Space (Zurich, 2025).',
-  meta: '<strong>Role:</strong> Visual Designer & Tracking Setup <br><strong>Tools:</strong> Unreal Engine, Blender, Max/MSP, MadMapper<br><strong>Year:</strong> 2025',
-  images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774356903/Cyber_Passage-05_gi9ujg.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363003/Cyber_Passage-10_cfawu8.jpg' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363010/Cyber_Passage-02_x4oqps.png' },
-      { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
-    ],
 },
    {
   title: 'Kaleidoscope',
@@ -870,7 +882,6 @@ const MORE_PROJECTS = [
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774622526/plug_in_3_gibrbh.jpg' },
   ],
 },
-     
 ];
 
    /* ─────────────────────────────────────────────
