@@ -872,7 +872,7 @@ const MORE_PROJECTS = [
   {
   title: 'Forever Trashed',
   subtitle: 'Prague · 2023',
-  tags: ['3D Environments', '3D Animation', '3D Modeling','Unity'],
+  tags: ['3D Environments', '3D Animation','Unity'],
   desc: 'Designed and built a game environment, including 3D assets, level structure, and character/object animations. Focused on spatial composition, gameplay flow, and visual coherence across the scene. Presented at FIK (Ústí nad Labem, 2023) and Lektvar (Olomouc, 2023).',
   meta: '<strong>Role:</strong> Environment & 3D Artist <br><strong>Tools:</strong> Blender, Unity <br><strong>Year:</strong> 2023',
   images: [
