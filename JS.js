@@ -845,19 +845,6 @@ const MORE_PROJECTS = [
       { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
     ],
 },
-  {
-  title: 'Forever Trashed',
-  subtitle: 'Prague · 2023',
-  tags: ['3D Environments', '3D Animation', '3D Modeling','Unity'],
-  desc: 'Designed and built a game environment, including 3D assets, level structure, and character/object animations. Focused on spatial composition, gameplay flow, and visual coherence across the scene. Presented at FIK (Ústí nad Labem, 2023) and Lektvar (Olomouc, 2023).',
-  meta: '<strong>Role:</strong> Environment & 3D Artist <br><strong>Tools:</strong> Blender, Unity <br><strong>Year:</strong> 2023',
-  images: [
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774537350/forever_trashed4_1_vpay3y.jpg' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774535643/forever_trashed5_zg6oit.jpg' },
-    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774535804/forever_ode02z.mp4' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569758/copy_of_forever_trashed3_dzljnn_daf60c.png' },
-  ],
-}
    {
   title: 'Kaleidoscope',
   subtitle: 'Installation · Prague, 2024',
@@ -880,6 +867,19 @@ const MORE_PROJECTS = [
   meta: '<strong>Role:</strong> Visual Designer, Technical Operator <br><strong>Tools:</strong>TouchDesigner<br><strong>Year:</strong> 2024',
   images: [
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774622526/plug_in_3_gibrbh.jpg' },
+  ],
+},
+  {
+  title: 'Forever Trashed',
+  subtitle: 'Prague · 2023',
+  tags: ['3D Environments', '3D Animation', '3D Modeling','Unity'],
+  desc: 'Designed and built a game environment, including 3D assets, level structure, and character/object animations. Focused on spatial composition, gameplay flow, and visual coherence across the scene. Presented at FIK (Ústí nad Labem, 2023) and Lektvar (Olomouc, 2023).',
+  meta: '<strong>Role:</strong> Environment & 3D Artist <br><strong>Tools:</strong> Blender, Unity <br><strong>Year:</strong> 2023',
+  images: [
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774537350/forever_trashed4_1_vpay3y.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774535643/forever_trashed5_zg6oit.jpg' },
+    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774535804/forever_ode02z.mp4' },
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569758/copy_of_forever_trashed3_dzljnn_daf60c.png' },
   ],
 },
 ];
