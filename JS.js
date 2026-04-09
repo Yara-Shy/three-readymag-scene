@@ -819,6 +819,20 @@ const sections  = ['s-home','s-work','s-about','s-contact'].map(id => document.g
 
 const MORE_PROJECTS = [
   {
+  title: 'Chornozem',
+  subtitle: 'Startup Project · Zurich/Kyiv, 2025',
+  tags: ['Research Visualization', 'Visual Communication & Production'],
+  desc: 'Visual communication for a research startup developing soil contamination detection tools. Shaped how the project is presented across pitches, exhibitions, and public platforms, producing video, graphics, and spatial materials that translate scientific data into clear narratives. The project received multiple international recognitions, including 1st Place at Falling Walls Lab Switzerland and Overall Winner at BioDesign Challenge 2025.',
+  meta: '<strong>Role:</strong> Visual Communication & Production <br><strong>Tools:</strong> Adobe Suite, Blender <br><strong>Year:</strong> 2025',
+  images: [
+    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774623472/CHORNOZEM2-_Agrifood_-_New_Food_Summit_2025_5_b2k8fw.mp4'}, 
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775567933/1Q6A2657-2_f7jwxe.png'}, 
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569392/ecoside-v2_rss0kb.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569035/_0006100_rtlfx0.png' },
+    
+  ],
+},
+  {
   title: 'Forever Trashed',
   subtitle: 'Prague · 2023',
   tags: ['3D Environments', '3D Animation', '3D Modeling','Unity'],
@@ -844,20 +858,7 @@ const MORE_PROJECTS = [
       { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
     ],
 },
-  {
-  title: 'Chornozem',
-  subtitle: 'Startup Project · Zurich/Kyiv, 2025',
-  tags: ['Research Visualization', 'Visual Communication & Production'],
-  desc: 'Visual communication for a research startup developing soil contamination detection tools. Shaped how the project is presented across pitches, exhibitions, and public platforms, producing video, graphics, and spatial materials that translate scientific data into clear narratives. The project received multiple international recognitions, including 1st Place at Falling Walls Lab Switzerland and Overall Winner at BioDesign Challenge 2025.',
-  meta: '<strong>Role:</strong> Visual Communication & Production <br><strong>Tools:</strong> Adobe Suite, Blender <br><strong>Year:</strong> 2025',
-  images: [
-    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774623472/CHORNOZEM2-_Agrifood_-_New_Food_Summit_2025_5_b2k8fw.mp4'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775567933/1Q6A2657-2_f7jwxe.png'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569392/ecoside-v2_rss0kb.jpg' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569035/_0006100_rtlfx0.png' },
-    
-  ],
-},
+  
    {
   title: 'Kaleidoscope',
   subtitle: 'Installation · Prague, 2024',
