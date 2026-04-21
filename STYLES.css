@@ -392,7 +392,6 @@ nav * { pointer-events: all; }
 
 @media (max-width: 768px) {
   #s-about { padding-top: 2rem; }
-  #s-contact { padding-top: 5rem; padding-bottom: 5rem; }
 }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7rem; align-items: start; width: 100%; }
 .about-big { font-family: "pacaembu", sans-serif; font-size: clamp(2.4rem, 5vw, 4.8rem); line-height: 1.0; letter-spacing: -.02em; margin-bottom: 2rem; }
@@ -424,7 +423,6 @@ nav * { pointer-events: all; }
 
 @media (max-width: 768px) {
   nav, .scroll-page { padding-left: 1.4rem; padding-right: 1.4rem; }
-  .scroll-page { padding-top: 5rem; padding-bottom: 5rem; }
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
 @media (prefers-reduced-motion: reduce) {
