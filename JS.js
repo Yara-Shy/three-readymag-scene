@@ -739,7 +739,7 @@ const PROJECTS = [
     subtitle: 'Interactive Exhibition · Zurich 2025',
     tags: ['Live Post-Processing', 'Signal Routing', 'Camera Tracking','TouchDesigner'],
     desc: 'Built an interactive video pipeline where live camera input was processed in TouchDesigner and projected at room scale. Participant movement was captured and used to drive visual transformations and lighting behavior, creating a feedback loop between the body, image, and space. Presented at Immersive Art Space (Zurich, 2025)',
-    meta: '<strong>Role:</strong> Visual Designer, Technical Operator <br><strong>Tools:</strong> TouchDesigner, MAX, MadMapper<br><strong>Year:</strong> 2025',
+    meta: '<strong>Role:</strong> Visual Designer, Technical Operator Assistant <br><strong>Tools:</strong> TouchDesigner, MAX, MadMapper<br><strong>Year:</strong> 2025',
     images: [
       { type:  'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774364599/Ego-Interactive_exhibitions_03_uwlahp.mp4' },
       { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774362552/Ego-Interactive_exhibitions_02_xi8owc.jpg' },
