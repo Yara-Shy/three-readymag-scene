@@ -695,7 +695,7 @@ const PROJECTS = [
     tags: ['Stage Visuals', 'Lighting Integration', 'TouchDesigner'],
     desc: 'Developed and ran a real-time visual system for a music video shoot, combining stage lighting with generative graphics. The visuals were adjusted live on set to match camera movement and performance timing.',
     meta: '<strong>Role:</strong> Visual Designer <br><strong>Tools:</strong> TouchDesigner, After Effects, MadMapper<br><strong>Year:</strong> 2024',images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774359760/Doyou_kd0xsh.mp4' },
+      { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094638/Doyou_kd0xsh_fhyrd3.mp4' },
     ]
   },
   {
@@ -705,9 +705,9 @@ const PROJECTS = [
     desc: 'Operated a real-time Unreal Engine environment during a virtual production shoot. Maintained synchronization between the physical camera and the virtual scene, adjusting lighting, animation, and scene parameters live. Set up and triggered animation cues in sync with the actor’s movement to align virtual events with on-set performance and timing.',
     meta: '<strong>Role:</strong> Virtual Production Operator<br><strong>Tools:</strong> Unreal Engine, Blender<br><strong>Year:</strong> 2026',
     images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774533662/Teddy_Sort_Cut_jrkqu6.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629013/teddy_5_cdzyyr.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629011/teddy_3_hhhayj.png' },
+      { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094647/Teddy_Sort_Cut_jrkqu6_gzambq.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094630/teddy_3_hhhayj_tupxjk.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094634/teddy_1_yn5if9_kqtb5d.png' },
       { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629010/teddy_2_xcx74i.png' },
     ]
   },
@@ -718,10 +718,10 @@ const PROJECTS = [
     desc: 'Built and operated a real-time environment in Unreal Engine for a virtual production shoot. Developed Niagara-based simulations for explosions and sand, and controlled them live on set. Set up animation triggers to align VFX events with the actor’s movement, adjusting timing and behavior during takes.',
     meta: '<strong>Role:</strong> Virtual Production Operator<br><strong>Tools:</strong> Unreal Engine, Blender<br><strong>Year:</strong> 2025',
     images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774457995/Rohschnitt_01_hvdmcb.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629041/rock_2_sag9tx.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629040/rock_4_ctrrqu.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629039/rock_3_fd4wae.png' },
+      { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094648/Rohschnitt_01_hvdmcb_z0lnql.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094633/rock_4_ctrrqu_gkwb4s.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094633/rock_2_sag9tx_wjlfze.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094629/rock_3_fd4wae_rfngiz.png' },
     ]
   },
   {
@@ -731,7 +731,7 @@ const PROJECTS = [
     desc: 'Developed a real-time visual system driven by live microphone inputs for the performance “Spinnen” by Luis Escobar. Built a TouchDesigner pipeline that translated audio signals into visual behavior, controlling intensity, movement, and transitions during the performance. Operated the system live, adjusting parameters in response to sound dynamics and performer timing.',
     meta: '<strong>Role:</strong> Visual Designer, Technical Operator <br><strong>Tools:</strong> TouchDesigner<br><strong>Year:</strong> 2025',
     images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774791413/Spinnen_Final_V1_3_warebk.mp4' },
+      { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094645/Spinnen_Final_V1_3_warebk_brd6ws.mp4' },
      ]
   },
   {
@@ -741,10 +741,10 @@ const PROJECTS = [
     desc: 'Built an interactive video pipeline where live camera input was processed in TouchDesigner and projected at room scale. Participant movement was captured and used to drive visual transformations and lighting behavior, creating a feedback loop between the body, image, and space. Presented at Immersive Art Space (Zurich, 2025)',
     meta: '<strong>Role:</strong> Visual Designer, Technical Operator Assistant <br><strong>Tools:</strong> TouchDesigner, MAX, MadMapper<br><strong>Year:</strong> 2025',
     images: [
-      { type:  'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774364599/Ego-Interactive_exhibitions_03_uwlahp.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774362552/Ego-Interactive_exhibitions_02_xi8owc.jpg' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774970165/SI5A6850-min_zrwc5w.jpg' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774362554/Ego-Interactive_exhibitions_03_ypxvcl.jpg' },
+      { type:  'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094646/Ego-Interactive_exhibitions_03_uwlahp_lmr1m2.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094635/Ego-Interactive_exhibitions_10_tgpgjn.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094622/Ego-Interactive_exhibitions_02_xi8owc_kmdavg.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094622/Ego-Interactive_exhibitions_03_ypxvcl_v5dwu7.jpg' },
     ]
   },
   {
@@ -754,10 +754,10 @@ const PROJECTS = [
     desc: 'Developed a VR experience in Unreal Engine, combining environment design, interaction logic, and real-time animation. Built spatial scenes and user pathways, focusing on navigation, pacing, and immersion. Presented at Anifilm (Liberec, 2023), FAMU (Prague, 2023), and UMPRUM ARTSEMESTR (Prague, 2022).',
     meta: '<strong>Role:</strong> Environment Artist, Developer <br><strong>Tools:</strong> Unreal Engine, Blender <br><strong>Year:</strong> 2022',
     images: [
-      { type:  'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774624717/Dream_Of_War_Short1_csshfe.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363379/Dream_of_war_02_zvxbsg.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363378/Dream_of_war_04_i845o0.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363384/Dream_of_war_05_avh3sp.png' },
+      { type:  'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094636/Dream_Of_War_Short_qcslvu_xsr3dl.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094615/Dream_of_war_01_weuqzz_omnxk4.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094615/Dream_of_war_04_i845o0_exqsid.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094615/Dream_of_war_02_zvxbsg_wrnpe1.png' },
     ]
   },
 ];
@@ -956,10 +956,10 @@ const MORE_PROJECTS = [
   desc: 'Designed and built a game environment, including 3D assets, level structure, and character/object animations. Focused on spatial composition, gameplay flow, and visual coherence across the scene. Presented at FIK (Ústí nad Labem, 2023) and Lektvar (Olomouc, 2023).',
   meta: '<strong>Role:</strong> 3D Artist <br><strong>Tools:</strong> Blender, Unity <br><strong>Year:</strong> 2023',
   images: [
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774537350/forever_trashed4_1_vpay3y.jpg' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774535643/forever_trashed5_zg6oit.jpg' },
-    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774535804/forever_ode02z.mp4' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569758/copy_of_forever_trashed3_dzljnn_daf60c.png' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094624/forever_trashed4_1_vpay3y_itlxz7.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094629/forever_trashed5_zg6oit_erpgdo.jpg' },
+    { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094631/forever_trashed7_cd75pb_w52o0n.png' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094634/forever_ode02z_cvde5x.mp4_daf60c.png' },
   ],
 },
   {
@@ -969,10 +969,10 @@ const MORE_PROJECTS = [
   desc: 'Built and operated a real-time Unreal Engine setup combining virtual camera tracking and projection mapping. Aligned virtual perspective with the viewer’s position, adjusting scene and projection parameters to maintain spatial coherence as the viewpoint shifted. Presented at Immersive Art Space (Zurich, 2025).',
   meta: '<strong>Role:</strong> Visual Designer & Tracking Setup <br><strong>Tools:</strong> Unreal Engine, Blender, Max/MSP, MadMapper<br><strong>Year:</strong> 2025',
   images: [
-      { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774356903/Cyber_Passage-05_gi9ujg.mp4' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363003/Cyber_Passage-10_cfawu8.jpg' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774363010/Cyber_Passage-02_x4oqps.png' },
-      { type: 'img', src: 'https://i-p.rmcdn.net/619d2b5322f258001999020d/4640512/image-d46d9c9c-559e-4425-9f7e-e46af6dc142e.jpg?w=1200&e=webp' },
+      { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094627/Cyber_Passage-05_gi9ujg_spv9y6.mp4' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094615/Cyber_Passage-12_pvnw3o_xyuenk.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094614/Cyber_Passage-10_cfawu8_tbnllz.jpg' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094614/Cyber_Passage-02_x4oqps_iqpjim.png' },
     ],
 },
   {
@@ -982,7 +982,7 @@ const MORE_PROJECTS = [
   desc: 'Visual communication for a research startup developing soil contamination detection tools. Shaped how the project is presented across pitches, exhibitions, and public platforms, producing video, graphics, and spatial materials that translate scientific data into clear narratives. The project received multiple international recognitions, including 1st Place at Falling Walls Lab Switzerland and Overall Winner at BioDesign Challenge 2025.',
   meta: '<strong>Role:</strong> Visual Communication & Production <br><strong>Tools:</strong> Adobe Suite, Blender <br><strong>Year:</strong> 2025',
   images: [
-    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1774623472/CHORNOZEM2-_Agrifood_-_New_Food_Summit_2025_5_b2k8fw.mp4'}, 
+    { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094645/CHORNOZEM2-_Agrifood_-_New_Food_Summit_2025_5_b2k8fw_qaspyg.mp4'}, 
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775567933/1Q6A2657-2_f7jwxe.png'}, 
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569392/ecoside-v2_rss0kb.jpg' },
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569035/_0006100_rtlfx0.png' },
@@ -996,9 +996,9 @@ const MORE_PROJECTS = [
   desc: 'Captured motion data from a dance performance and processed it through a pipeline in MotionBuilder and Unreal Engine 5, refining timing and integrating the animation into a real-time 3D scene.',
   meta: '<strong>Role:</strong> Visual Designer <br><strong>Tools:</strong>Unreal Engine, Motion Builder<br><strong>Year:</strong> 2024',
   images: [
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774624286/Kaleidoscope1_mwmfei.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094637/Kaleidoscope1_mwmfei_cn1fws.jpg' },
     { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1775568809/21_March_2024_-_ROTATE_-_Videobolt.net_xvdeg6.mp4'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774623115/copy_of_kalei_1_ntog2e_8f915b.png' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094632/Kaleidoscope_4_o0ske8.png' },
     { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775568514/Kaleidoscope4_vgwkqr.jpg' },
    
   ],
@@ -1010,7 +1010,7 @@ const MORE_PROJECTS = [
   desc: 'Developed an interactive installation combining spatial audio and generative visuals. Sensors placed in the space captured participant movement, driving changes in audio, which in turn influenced the visual system. Built and tuned the signal flow between input, sound, and graphics to maintain a coherent real-time response during interaction. Exhibited at BHROX, Berlin, in 2024.',
   meta: '<strong>Role:</strong> Visual Designer <br><strong>Tools:</strong>TouchDesigner<br><strong>Year:</strong> 2024',
   images: [
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774622526/plug_in_3_gibrbh.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094626/plug_in_3_gibrbh_e1cphp.jpg' },
   ],
 },
 ];
