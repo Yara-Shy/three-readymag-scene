@@ -958,8 +958,8 @@ const MORE_PROJECTS = [
   images: [
     { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094624/forever_trashed4_1_vpay3y_itlxz7.jpg' },
     { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094629/forever_trashed5_zg6oit_erpgdo.jpg' },
-    { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094631/forever_trashed7_cd75pb_w52o0n.png' },
-    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094634/forever_ode02z_cvde5x.mp4_daf60c.png' },
+    { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094634/forever_ode02z_cvde5x.mp4' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094631/forever_trashed7_cd75pb_w52o0n.png' },
   ],
 },
   {
@@ -983,9 +983,9 @@ const MORE_PROJECTS = [
   meta: '<strong>Role:</strong> Visual Communication & Production <br><strong>Tools:</strong> Adobe Suite, Blender <br><strong>Year:</strong> 2025',
   images: [
     { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094645/CHORNOZEM2-_Agrifood_-_New_Food_Summit_2025_5_b2k8fw_qaspyg.mp4'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775567933/1Q6A2657-2_f7jwxe.png'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569392/ecoside-v2_rss0kb.jpg' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775569035/_0006100_rtlfx0.png' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778096548/chornozem_falling_walls_ofovk9.png'}, 
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778096548/chornozem_falling_walls_ofovk9.png' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778096659/chornozem_app_pja1yz.png' },
     
   ],
 },
@@ -997,9 +997,9 @@ const MORE_PROJECTS = [
   meta: '<strong>Role:</strong> Visual Designer <br><strong>Tools:</strong>Unreal Engine, Motion Builder<br><strong>Year:</strong> 2024',
   images: [
     { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094637/Kaleidoscope1_mwmfei_cn1fws.jpg' },
-    { type: 'video', src: 'https://res.cloudinary.com/dtzuydpci/video/upload/v1775568809/21_March_2024_-_ROTATE_-_Videobolt.net_xvdeg6.mp4'}, 
-    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094632/Kaleidoscope_4_o0ske8.png' },
-    { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1775568514/Kaleidoscope4_vgwkqr.jpg' },
+    { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778097076/21_March_2024_-_ROTATE_-_Videobolt.net_pzsk4p.mp4'}, 
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778096932/Kaleidoscope4_s3276t.jpg' },
+    { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094626/Kaleidoscope_2_b1wwck.png' },
    
   ],
 },
