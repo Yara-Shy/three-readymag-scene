@@ -708,7 +708,7 @@ const PROJECTS = [
       { type: 'video', src: 'https://res.cloudinary.com/ddkjvt1t8/video/upload/v1778094647/Teddy_Sort_Cut_jrkqu6_gzambq.mp4' },
       { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094630/teddy_3_hhhayj_tupxjk.png' },
       { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094634/teddy_1_yn5if9_kqtb5d.png' },
-      { type: 'img', src: 'https://res.cloudinary.com/dtzuydpci/image/upload/v1774629010/teddy_2_xcx74i.png' },
+      { type: 'img', src: 'https://res.cloudinary.com/ddkjvt1t8/image/upload/v1778094634/teddy_2_xcx74i_h8e0cz.png' },
     ]
   },
   {
